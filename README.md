@@ -76,7 +76,3 @@ It also works as a general-purpose AI assistant, so you can ask questions about 
                     │     Twilio      │
                     │    WhatsApp     │
                     └─────────────────┘
-
-⚙️ Installation
-1. Clone the repository
-git clone https://github.com/swanand-salwe/Macrosnap.git
