@@ -21,7 +21,7 @@ def get_twilio_client():
 
 twilio_client = get_twilio_client()
 gemini_client = get_gemini_client()
-MODEL_NAME = "gemini-3.5-flash"  # or "gemini-3.8-turbo" for a faster, cheaper option
+MODEL_NAME = "gemini-2.0-flash"  # Fast, cost-effective model with vision support
 
 def clean_whatsapp_text(s):
     if not text:
@@ -127,7 +127,7 @@ else:
 # user input ai to give inputs 
 
 user_input = st.chat_input(
-    "Ask a question, or attach a photo of your meal",
+    "Ask a question, or attach a photo of your Query",
     accept_file=True,
     file_type=["png", "jpeg", "jpg"],
 )
