@@ -22,7 +22,7 @@ def get_twilio_client():
 
 twilio_client = get_twilio_client()
 groq_client = get_groq_client()
-MODEL_NAME = "llama-3.2-11b-vision-preview"  # Fast Groq vision model
+MODEL_NAME = "qwen/qwen3.8-27b"  # Fast Groq vision model
 
 def clean_whatsapp_text(s):
     if not s:
