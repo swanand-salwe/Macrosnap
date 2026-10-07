@@ -21,7 +21,7 @@ def get_twilio_client():
 
 twilio_client = get_twilio_client()
 gemini_client = get_gemini_client()
-MODEL_NAME = "gemini-2.0-flash"  # Fast, cost-effective model with vision support
+MODEL_NAME = "gemini-3.8-flash"  # Fast, cost-effective model with vision support
 
 def clean_whatsapp_text(s):
     if not text:
